@@ -75,6 +75,15 @@ hr {
 /*Main Section End*/
 
 /*Intro Start*/
+article {
+    text-align: center;
+}
+.profile-pic {
+    width: 40%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    border: 1px solid #272932 ;
+}
 .intro {
     text-align: left;
     padding: 0;
@@ -105,8 +114,9 @@ hr {
     padding: 0 5%;
 }
 .map {
-    width: 700px;
-    margin: 20px 0 20px 0;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
     border: 1px solid #272932;
 }
 /*Contact End*/
@@ -117,6 +127,7 @@ footer {
     text-align: center;
     color: black;
     margin: 0;
+    padding: 0;
 }
 .footer-text {
     margin: 0;
